@@ -1,144 +1,621 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <meta name="description"
+          content="Yash Khapre's developer portfolio featuring NetrSetu, Resumex, software development, and academic projects.">
+
+    <title>Yash Khapre | Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Yash Khapre</h1>
-    <p>Final Year Computer Engineering Student</p>
-</header>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#internship">Internship</a>
-    <a href="#certificates">Certifications</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="#home" class="logo">YK<span>.</span></a>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a passionate Computer Engineering student interested in
-        Web Development, Java Programming, Python, and Software Development.
-        I enjoy learning new technologies and building innovative projects.
-    </p>
-</section>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-<section id="education">
-    <h2>Education</h2>
+    <main>
 
-    <table>
-        <tr>
-            <th>Qualification</th>
-            <th>Institute</th>
-            <th>Year</th>
-            <th>Percentage/CGPA</th>
-        </tr>
+        <!-- HERO SECTION -->
+        <header id="home" class="hero">
 
-        <tr>
-            <td>B.Tech. Computer Engineering</td>
-            <td>Shah and Anchor Engineering College</td>
-            <td>2026</td>
-            <td>9.2 CGPA</td>
-        </tr>
+            <div class="hero-content">
 
-        <tr>
-            <td>HSC</td>
-            <td>vidya niketanJunior College</td>
-            <td>2022</td>
-            <td>90.40%</td>
-        </tr>
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    COMPUTER ENGINEERING STUDENT
+                </div>
 
-        <tr>
-            <td>SSC</td>
-            <td>P.V.G.S vidya bhwan High School</td>
-            <td>2020</td>
-            <td>91%</td>
-        </tr>
-    </table>
-</section>
+                <p class="eyebrow">HELLO, WORLD! I'M</p>
 
-<section id="skills">
-    <h2>Technical Skills</h2>
+                <h1>
+                    Yash <span class="gradient-text">Khapre</span>
+                </h1>
 
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>C Programming</li>
-        <li>MySQL</li>
-        <li>Git & GitHub</li>
-    </ul>
-</section>
+                <h2>
+                    Building ideas into
+                    <span class="typing-text">digital solutions.</span>
+                </h2>
 
-<section id="projects">
-    <h2>Projects</h2>
+                <p class="hero-description">
+                    I explore software development, web technologies,
+                    and AI-powered solutions. I enjoy turning ideas into
+                    practical projects and learning by building.
+                </p>
 
-    <div class="card">
-        <h3>Student Management System</h3>
-        <p>
-            Desktop application developed using Java and MySQL for managing
-            student records efficiently.
-        </p>
-    </div>
+                <div class="hero-actions">
+                    <a href="#projects" class="button button-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
 
-    <div class="card">
-        <h3>Online Portfolio Website</h3>
-        <p>
-            Responsive personal portfolio website developed using HTML and CSS.
-        </p>
-    </div>
+                    <a href="#contact" class="button button-outline">
+                        Let's Connect
+                    </a>
+                </div>
 
-    <div class="card">
-        <h3>Weather App</h3>
-        <p>
-            Weather forecasting application using JavaScript and Weather API.
-        </p>
-    </div>
-</section>
+                <div class="social-links">
+                    <a href="https://github.com/yashkhapre0491"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
 
-<section id="internship">
-    <h2>Internship</h2>
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+                </div>
 
-    <p>
-        Completed a 6-week internship in Web Development where I worked on
-        responsive website design using HTML, CSS, JavaScript, and GitHub.
-    </p>
-</section>
+            </div>
 
-<section id="certificates">
-    <h2>Certifications</h2>
+            <!-- LEGEND YK IMAGE -->
+            <div class="hero-visual">
 
-    <ul>
-        <li>Java Programming Certification</li>
-        <li>Python for Beginners</li>
-        <li>Web Development Bootcamp</li>
-        <li>Git and GitHub Essentials</li>
-    </ul>
-</section>
+                <div class="profile-glow"></div>
 
-<section id="contact">
-    <h2>Contact</h2>
+                <div class="profile-image-frame">
+                    <img
+                        src="legend-yk.png"
+                        alt="Legend YK — personal developer artwork"
+                        class="profile-image"
+                    >
 
-    <p>Email : rahulsharma@gmail.com</p>
-    <p>Phone : +91 9892545170</p>
-    <p>LinkedIn : linkedin.com/in/Yash Khapre</p>
-    <p>GitHub : github.com/yashkhapre</p>
-</section>
+                    <div class="image-badge">
+                        <span class="status-dot"></span>
+                        <span>THE DEVELOPER</span>
+                    </div>
+                </div>
 
-<footer>
-    <p>© 2026 Yash Khapre | Portfolio Website</p>
-</footer>
+                <div class="floating-chip chip-one">
+                    &lt;/&gt; CODE
+                </div>
+
+                <div class="floating-chip chip-two">
+                    YK · LEGEND
+                </div>
+
+                <div class="floating-chip chip-three">
+                    BUILD YOUR LEGACY
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+
+            <div class="section-heading">
+                <span class="section-number">01 / ABOUT</span>
+
+                <h2>
+                    More than just <span class="gradient-text">code.</span>
+                </h2>
+
+                <p>
+                    A student who loves solving problems and creating things.
+                </p>
+            </div>
+
+            <div class="about-grid">
+
+                <article class="glass-card about-card">
+                    <span class="card-icon">⌘</span>
+                    <h3>Who I Am</h3>
+
+                    <p>
+                        I'm Yash Khapre, a Computer Engineering student at
+                        Shah and Anchor Kutchhi Engineering College (SAKEC),
+                        Mumbai. I'm interested in software development,
+                        programming, and emerging technologies.
+                    </p>
+                </article>
+
+                <article class="glass-card about-card">
+                    <span class="card-icon">✦</span>
+                    <h3>What I Build</h3>
+
+                    <p>
+                        From an AI-assisted resume analyzer to an
+                        eye-screening project and Java database applications,
+                        I enjoy exploring how technology can address
+                        real-world needs.
+                    </p>
+                </article>
+
+                <article class="glass-card about-card">
+                    <span class="card-icon">↗</span>
+                    <h3>My Approach</h3>
+
+                    <p>
+                        Learn the fundamentals, build projects, understand
+                        the problems, and keep improving. Every project is
+                        an opportunity to develop stronger technical skills.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+
+            <div class="section-heading">
+                <span class="section-number">02 / SKILLS</span>
+
+                <h2>
+                    My tech <span class="gradient-text">toolkit.</span>
+                </h2>
+
+                <p>Technologies and concepts I have explored.</p>
+            </div>
+
+            <div class="skills-layout">
+
+                <article class="glass-card skill-group">
+                    <h3>Programming</h3>
+
+                    <div class="skill-tags">
+                        <span>C</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-group">
+                    <h3>Web Development</h3>
+
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>React</span>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-group">
+                    <h3>Database &amp; Tools</h3>
+
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+                </article>
+
+                <article class="glass-card skill-group">
+                    <h3>Areas of Interest</h3>
+
+                    <div class="skill-tags">
+                        <span>AI Applications</span>
+                        <span>Resume Analysis</span>
+                        <span>Problem Solving</span>
+                        <span>Software Projects</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="small-note">
+                Skills listed reflect technologies and areas explored.
+                Proficiency levels are not claimed.
+            </p>
+
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+
+            <div class="section-heading">
+                <span class="section-number">03 / PROJECTS</span>
+
+                <h2>
+                    Ideas turned into
+                    <span class="gradient-text">projects.</span>
+                </h2>
+
+                <p>A selection of my academic and development work.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- NETRSETU -->
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-category">
+                            01 · AI / HEALTHCARE
+                        </span>
+                        <span class="project-symbol">◉</span>
+                    </div>
+
+                    <div class="project-art art-eye">
+                        <div class="eye-orbit">
+                            <div class="eye-core"></div>
+                        </div>
+                        <span class="art-caption">NETRSETU</span>
+                    </div>
+
+                    <h3>NetrSetu</h3>
+
+                    <p class="project-subtitle">
+                        AI-assisted eye screening
+                    </p>
+
+                    <p>
+                        An ophthalmology-focused project exploring retinal
+                        image analysis to support early eye-disease screening
+                        and referral workflows, particularly in underserved
+                        communities.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>AI / ML</span>
+                        <span>Retinal Imaging</span>
+                        <span>Healthcare</span>
+                    </div>
+
+                    <p class="project-status">
+                        Academic / Hackathon Project
+                    </p>
+
+                </article>
+
+                <!-- RESUMEX -->
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-category">
+                            02 · WEB / AI
+                        </span>
+                        <span class="project-symbol">✳</span>
+                    </div>
+
+                    <div class="project-art art-resume">
+                        <div class="resume-sheet">
+                            <div class="resume-line long"></div>
+                            <div class="resume-line medium"></div>
+                            <div class="resume-line short"></div>
+                            <div class="resume-score">ATS</div>
+                        </div>
+                    </div>
+
+                    <h3>Resumex</h3>
+
+                    <p class="project-subtitle">
+                        ATS-friendly resume builder
+                    </p>
+
+                    <p>
+                        A resume-building and analysis project designed to
+                        help users review resume content, identify areas
+                        for improvement, and create more
+                        applicant-tracking-friendly resumes.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Resume Analysis</span>
+                        <span>UI</span>
+                    </div>
+
+                    <p class="project-status">Academic Project</p>
+
+                </article>
+
+                <!-- LIBRARY MANAGEMENT -->
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-category">
+                            03 · JAVA / DATABASE
+                        </span>
+                        <span class="project-symbol">▤</span>
+                    </div>
+
+                    <div class="project-art art-library">
+                        <div class="book book-one"></div>
+                        <div class="book book-two"></div>
+                        <div class="book book-three"></div>
+                    </div>
+
+                    <h3>Library Management System</h3>
+
+                    <p class="project-subtitle">
+                        Library record digitization
+                    </p>
+
+                    <p>
+                        A Java desktop application using Swing, JDBC, and
+                        MySQL to manage book records, student details,
+                        and book issue and return operations.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Java Swing</span>
+                        <span>JDBC</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <p class="project-status">Academic Project</p>
+
+                </article>
+
+                <!-- SAFEWHEEL -->
+                <article class="project-card">
+
+                    <div class="project-top">
+                        <span class="project-category">
+                            04 · HARDWARE / SOFTWARE
+                        </span>
+                        <span class="project-symbol">⌁</span>
+                    </div>
+
+                    <div class="project-art art-safety">
+                        <div class="safety-ring">
+                            <span>SAFE</span>
+                        </div>
+                    </div>
+
+                    <h3>Drunk Driving Prevention System</h3>
+
+                    <p class="project-subtitle">
+                        Alcohol detection and vehicle safety
+                    </p>
+
+                    <p>
+                        A hardware-and-software project concept focused on
+                        alcohol detection and vehicle-safety measures to
+                        help discourage impaired driving.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Hardware</span>
+                        <span>Software</span>
+                        <span>Vehicle Safety</span>
+                    </div>
+
+                    <p class="project-status">Project Concept</p>
+
+                </article>
+
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+
+            <div class="section-heading">
+                <span class="section-number">04 / EDUCATION</span>
+
+                <h2>
+                    My learning <span class="gradient-text">journey.</span>
+                </h2>
+
+                <p>The academic path behind my technical interests.</p>
+            </div>
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="glass-card timeline-card">
+                        <span class="timeline-date">ENGINEERING</span>
+
+                        <h3>B.Tech. in Computer Engineering</h3>
+
+                        <p class="timeline-institute">
+                            Shah and Anchor Kutchhi Engineering College
+                            (SAKEC), Mumbai
+                        </p>
+
+                        <p>CGPA: 9.28</p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="glass-card timeline-card">
+                        <span class="timeline-date">HIGHER SECONDARY</span>
+
+                        <h3>HSC — Class XII</h3>
+
+                        <p>Percentage: 74.50%</p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="glass-card timeline-card">
+                        <span class="timeline-date">SECONDARY</span>
+
+                        <h3>SSC — Class X</h3>
+
+                        <p class="timeline-institute">
+                            P.V.G.S. Vidya Bhawan High School
+                        </p>
+
+                        <p>Percentage: 90.40%</p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"></div>
+
+                    <div class="glass-card timeline-card">
+                        <span class="timeline-date">ENTRANCE EXAM</span>
+
+                        <h3>MHT-CET</h3>
+
+                        <p>Percentile: 93.27</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section">
+
+            <div class="section-heading">
+                <span class="section-number">05 / CERTIFICATIONS</span>
+
+                <h2>
+                    Learning beyond <span class="gradient-text">college.</span>
+                </h2>
+
+                <p>Selected courses and training.</p>
+            </div>
+
+            <div class="cert-grid">
+
+                <article class="glass-card cert-card">
+                    <span class="cert-icon">C</span>
+
+                    <div>
+                        <h3>C Programming Training</h3>
+                        <p>EduPyramids / SINE, IIT Bombay</p>
+
+                        <span class="cert-detail">
+                            March 2026 · 90% · 2 credits
+                        </span>
+                    </div>
+                </article>
+
+                <article class="glass-card cert-card">
+                    <span class="cert-icon">DB</span>
+
+                    <div>
+                        <h3>MongoDB Basics for Students</h3>
+                        <p>MongoDB · Credly</p>
+
+                        <span class="cert-detail">
+                            July 12, 2026
+                        </span>
+                    </div>
+                </article>
+
+                <article class="glass-card cert-card">
+                    <span class="cert-icon">SB</span>
+
+                    <div>
+                        <h3>Java Spring Boot</h3>
+                        <p>Course / training certificate</p>
+
+                        <span class="cert-detail">
+                            July 22, 2026
+                        </span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+
+            <div class="contact-panel">
+
+                <span class="section-number">06 / CONTACT</span>
+
+                <h2>
+                    Let's build something
+                    <span class="gradient-text">great.</span>
+                </h2>
+
+                <p>
+                    Interested in technology, projects, or collaboration?
+                    Find me through the links below.
+                </p>
+
+                <div class="contact-actions">
+
+                    <a class="button button-primary"
+                       href="https://github.com/yashkhapre0491"
+                       target="_blank" rel="noopener noreferrer">
+                        Explore My GitHub ↗
+                    </a>
+
+                    <a class="button button-outline"
+                       href="mailto:YOUR_EMAIL@example.com">
+                        Email Me ↗
+                    </a>
+
+                </div>
+
+                <div class="contact-links">
+
+                    <a href="https://github.com/yashkhapre0491"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:YOUR_EMAIL@example.com">
+                        Email
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">YK<span>.</span></a>
+
+        <p>Designed and built with HTML &amp; CSS by Yash Khapre.</p>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+
+    </footer>
 
 </body>
 </html>
